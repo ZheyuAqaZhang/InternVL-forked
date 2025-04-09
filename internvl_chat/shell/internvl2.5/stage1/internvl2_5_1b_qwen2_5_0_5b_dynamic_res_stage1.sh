@@ -90,3 +90,6 @@ srun -p ${PARTITION} \
   --loss_reduction "square" \
   --loss_reduction_all_gather True \
   2>&1 | tee -a "${OUTPUT_DIR}/training_log.txt"
+
+
+# test
